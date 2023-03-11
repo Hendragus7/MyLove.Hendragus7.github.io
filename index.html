@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      div {width: 120px; margin: auto; display: flex; justify-content: space-between;}
+    </style>
+    <title>Hello Widhi!</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/x-icon" href="logo12.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+  <body class="body" style="text-align: center">
+    <img src="cat love.png" alt="catlove" style="height: 250px; position: center; display: block;">
+    <br>
+    <div class="text" style="text-align: center; width: 50%; margin: 0 auto; display: block;">
+      <h1 style="text-align: center;">Hai Cantik!!</h1>
+      <br>
+      <h3 style="text-align: center;">Ini Adalah Perasaanku Yang Sebenarnya</h3>
+      <br>
+      <p style="text-align: center;">Aku jatuh cinta padamu wid, dirimu selalu muncul dipikiranku. Ini pertama kalinya aku merasakan perasaan seperti ini,
+        dan aku tidak bisa membendung perasaan ini lebih jauh lagi. Walaupun perasaan ini aku
+        sampaikan secara tidak langsung seperti ini, tapi aku harap bisa mendapat kesempatan untuk mengungkapkannya secara langsung di depanmu.
+      </p>
+      <br>
+    </div>
+    <br>
+    <div class="impress" style="text-align: center; width: 50%; margin: 0 auto; display: block;">
+      <h2>MAUKAH KAMU JADI PACARKU WID?</h2>
+      <br>
+      <button class="button" style="text-align: center;" onclick="mau()"><strong>MAU</strong></button>
+      <button class="button" style="text-align: center;" onmouseover="gak(this)"><strong>GAK</strong></button>
+    </div>
+    <script>
+      function mau() {
+        alert("Makasih mau nerima aku :)");
+        alert("Kirim jawabannya ke WA aku ya");
+
+        location.assign("https://wa.me/628980754196/?text=Aku%20mau%20jadi%20pacar%20kamu%20><");
+      }
+      function gak(ini) {
+        ini.style.position = "absolute";
+        ini.style.left = `${Math.floor(Math.random() * 90)}%`;
+        ini.style.top = `${Math.floor(Math.random() * 90)}%`;
+      }
+    </script>
+  </body>
+</html>

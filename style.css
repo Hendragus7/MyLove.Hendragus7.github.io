@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap);
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*Background Color*/
+.body {
+    background-color:  rgb(221, 221, 221);
+    font-family: sans-serif;
+    word-spacing: 5px;
+}
+.body img{
+    size: 30px;
+    box-sizing: content-box;
+    padding: 50px 300px 20px;
+    margin:auto;
+    position: middle;
+    background-color:slategrey;
+    image-orientation: initial;
+}
+.body .text{
+    text-align: center;
+    box-sizing: content-box;
+    padding: 30px 250px 20px;
+    display:inline-block;
+    position: middle;
+    background-color:darkorange;
+    box-shadow: 2px 2px 5px black ;
+    text-overflow: clip;
+}
+.body .impress{
+    text-align: center;
+    box-sizing: content-box;
+    padding: 20px 250px 20px;
+    display:inline-block;
+    position: middle;
+    background-color:slategrey;
+    text-overflow: clip;
+}
+.body .button{
+    border-radius: 10px;
+    padding: 15px 15px 10px;
+    text-align: center;
+    text-decoration-style: bold;
+    background-color: darkorange;
+    text-decoration: solid 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+    cursor: pointer;
+}
+.body .button:hover{
+    opacity: 0.8;
+    color: aliceblue;
+    background-color:deeppink;
+}
